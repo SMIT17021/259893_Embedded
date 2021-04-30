@@ -33,4 +33,4 @@ CI and Code Quality
 ---
 |Cppcheck|Code Quality|
 |:--:|:--:|
-|[![CI](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml)| ![code quality](https://www.code-inspector.com/project/22147/status/svgr) |
+|[![CI](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml)| ![code quality](https://www.code-inspector.com/project/22147/status/svgr)|
