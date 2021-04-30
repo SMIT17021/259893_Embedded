@@ -33,4 +33,4 @@ CI and Code Quality
 ---
 |Cppcheck|Code Quality|Build|
 |:--:|:--:|:--:|
-|[![CI](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1b7a461a02854ae6a62dcec5a17097d6)](https://www.codacy.com/gh/SMIT17021/259893_Embedded/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SMIT17021/259893_Embedded&amp;utm_campaign=Badge_Grade)|
+|[![CI](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1b7a461a02854ae6a62dcec5a17097d6)](https://www.codacy.com/gh/SMIT17021/259893_Embedded/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SMIT17021/259893_Embedded&amp;utm_campaign=Badge_Grade)|[![Compile-Linux](https://github.com/SMIT17021/259893_Embedded/actions/workflows/compile.yml/badge.svg)](https://github.com/SMIT17021/259893_Embedded/actions/workflows/compile.yml) |
