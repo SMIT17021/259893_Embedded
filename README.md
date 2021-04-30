@@ -25,6 +25,9 @@ The whole Activity is divided into 4 sub-activities as mentioned:
 
 ### Activity 4
  Send temperature data serially from the micro-controller to external Display using UART protocol.
+ 
+### Final Image of program
+ ![Final image](https://github.com/SMIT17021/259893_Embedded/blob/main/Simulation/Embedded.png)
 
 CI and Code Quality
 ---
