@@ -11,6 +11,6 @@
 #ifndef _Activity3_h_
 #define _Activity3_h_
 
- Activity3(int);
+int Activity3(int);
 
 #endif
