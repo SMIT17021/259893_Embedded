@@ -1,29 +1,21 @@
-#include <avr/io.h>
-#include <util/delay.h>
+#include<avr/io.h>
+#include"Activity1.h"
+#include"Activity2.h"
+#include"Activity3.h"
+#include"Activity4.h"
 
 
-int main(void)
-{
-    DDRB |= (1<<PB1);       //output pin to led
-    DDRB &= ~(1<<PB0);    //input pin to seat button(clear bit)
-    DDRB &= ~(1<<PB2);    //input pin to heater(clear bit)
-
-
-    PORTB |= (1<<PB0);    //set bit
-    PORTB |= (1<<PB2);    //set bit
-
+int main()
+{   int read_adc = 0,timer_val=0;
     while(1)
     {
-
+        Activity1();
         if((!(PINB&(1<<PB0)))&(!(PINB&(1<<PB2))))
         {
-            PORTB |= (1<<PB1);      //Turn On Led
-        }
-
-         else
-        {
-            PORTB &= ~(1<<PB1);     //Turn Off Led
+            read_adc = Activity2();
+            timer_val = Activity3(read_adc);
+            Activity4(timer_val);
         }
     }
-    return 0;
+return 0;
 }
