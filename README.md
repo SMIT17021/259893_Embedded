@@ -31,5 +31,6 @@ The whole Activity is divided into 4 sub-activities as mentioned:
 
 CI and Code Quality
 ---
-|Build|Cppcheck|Codacy|
+|Cppcheck|Code Quality|
 |:--:|:--:|:--:|
+|[![CI](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/SMIT17021/259893_Embedded/actions/workflows/cppcheck.yml)|https://www.code-inspector.com/project/22147/status/svg|
